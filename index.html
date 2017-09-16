@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe Game</h1>
+    <section id="mainWindow">
+        <button id="b1" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b2" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b3" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b4" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b5" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b6" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b7" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b8" class="gameButton" onclick="calculateTurn(this)"></button>
+        <button id="b9" class="gameButton" onclick="calculateTurn(this)"></button>
+    </section>
+    <aside id="scoreBoard">
+        <h3>Player score:</h3>
+        <table id="myTable">
+            <tr>
+              <td>X:</td>
+              <td id="xScore">0</td> 
+            </tr>
+            <tr>
+              <td>O:</td>
+              <td id="oScore">0</td> 
+            </tr>
+          </table>
+    </aside>
+    <h3 id="playerTurn">Player: X's turn</h3>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/ticTacToeScript.js"></script>
+</body>
+
+</html>

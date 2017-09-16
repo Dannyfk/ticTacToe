@@ -1,0 +1,16 @@
+#mainWindow {
+  width: 70%;
+  display: inline-block; }
+
+#scoreBoard {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top; }
+
+.gameButton {
+  width: 30%;
+  height: 20%;
+  font-size: 6em;
+  float: left; }
+
+/*# sourceMappingURL=style.css.map */
